@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058601A01F29927700FE7F45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586019F1F29927700FE7F45 /* AppDelegate.swift */; };
+		058601A21F29927700FE7F45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058601A11F29927700FE7F45 /* ViewController.swift */; };
+		058601A51F29927700FE7F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058601A31F29927700FE7F45 /* Main.storyboard */; };
+		058601A71F29927700FE7F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058601A61F29927700FE7F45 /* Assets.xcassets */; };
+		058601AA1F29927700FE7F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058601A81F29927700FE7F45 /* LaunchScreen.storyboard */; };
+		058601B31F29934D00FE7F45 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 058601B11F29934D00FE7F45 /* level1.txt */; };
+		058601B41F29934D00FE7F45 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 058601B21F29934D00FE7F45 /* level2.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0586019C1F29927700FE7F45 /* SwiftyWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0586019F1F29927700FE7F45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		058601A11F29927700FE7F45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		058601A41F29927700FE7F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		058601A61F29927700FE7F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058601A91F29927700FE7F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		058601AB1F29927700FE7F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058601B11F29934D00FE7F45 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		058601B21F29934D00FE7F45 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058601991F29927700FE7F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058601931F29927700FE7F45 = {
+			isa = PBXGroup;
+			children = (
+				0586019E1F29927700FE7F45 /* SwiftyWordGame */,
+				0586019D1F29927700FE7F45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0586019D1F29927700FE7F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0586019C1F29927700FE7F45 /* SwiftyWordGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0586019E1F29927700FE7F45 /* SwiftyWordGame */ = {
+			isa = PBXGroup;
+			children = (
+				058601B11F29934D00FE7F45 /* level1.txt */,
+				058601B21F29934D00FE7F45 /* level2.txt */,
+				0586019F1F29927700FE7F45 /* AppDelegate.swift */,
+				058601A11F29927700FE7F45 /* ViewController.swift */,
+				058601A31F29927700FE7F45 /* Main.storyboard */,
+				058601A61F29927700FE7F45 /* Assets.xcassets */,
+				058601A81F29927700FE7F45 /* LaunchScreen.storyboard */,
+				058601AB1F29927700FE7F45 /* Info.plist */,
+			);
+			path = SwiftyWordGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0586019B1F29927700FE7F45 /* SwiftyWordGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058601AE1F29927700FE7F45 /* Build configuration list for PBXNativeTarget "SwiftyWordGame" */;
+			buildPhases = (
+				058601981F29927700FE7F45 /* Sources */,
+				058601991F29927700FE7F45 /* Frameworks */,
+				0586019A1F29927700FE7F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyWordGame;
+			productName = SwiftyWordGame;
+			productReference = 0586019C1F29927700FE7F45 /* SwiftyWordGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058601941F29927700FE7F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rajiv Deshmukh";
+				TargetAttributes = {
+					0586019B1F29927700FE7F45 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7ENL74E7BB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 058601971F29927700FE7F45 /* Build configuration list for PBXProject "SwiftyWordGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058601931F29927700FE7F45;
+			productRefGroup = 0586019D1F29927700FE7F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0586019B1F29927700FE7F45 /* SwiftyWordGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0586019A1F29927700FE7F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058601B41F29934D00FE7F45 /* level2.txt in Resources */,
+				058601AA1F29927700FE7F45 /* LaunchScreen.storyboard in Resources */,
+				058601B31F29934D00FE7F45 /* level1.txt in Resources */,
+				058601A71F29927700FE7F45 /* Assets.xcassets in Resources */,
+				058601A51F29927700FE7F45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058601981F29927700FE7F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058601A21F29927700FE7F45 /* ViewController.swift in Sources */,
+				058601A01F29927700FE7F45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		058601A31F29927700FE7F45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058601A41F29927700FE7F45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		058601A81F29927700FE7F45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058601A91F29927700FE7F45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058601AC1F29927700FE7F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		058601AD1F29927700FE7F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058601AF1F29927700FE7F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ENL74E7BB;
+				INFOPLIST_FILE = SwiftyWordGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vervibe.SwiftyWordGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		058601B01F29927700FE7F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ENL74E7BB;
+				INFOPLIST_FILE = SwiftyWordGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vervibe.SwiftyWordGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058601971F29927700FE7F45 /* Build configuration list for PBXProject "SwiftyWordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058601AC1F29927700FE7F45 /* Debug */,
+				058601AD1F29927700FE7F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058601AE1F29927700FE7F45 /* Build configuration list for PBXNativeTarget "SwiftyWordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058601AF1F29927700FE7F45 /* Debug */,
+				058601B01F29927700FE7F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058601941F29927700FE7F45 /* Project object */;
+}
